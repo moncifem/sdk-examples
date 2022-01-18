@@ -4,7 +4,7 @@ include("src:main:ui")
 buildscript {
     repositories {
         gradlePluginPortal()
-        maven(url = "https://dl.equoplatform.com/gradle/0.6.0")
+        maven(url = "https://dl.equo.dev/gradle/0.6.0")
     }
 
     dependencies {

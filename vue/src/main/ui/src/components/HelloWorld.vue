@@ -9,7 +9,7 @@
       For a guide and recipes on how to configure / customize an Equo App, check
       out the
       <a
-        href="https://docs.equoplatform.com/"
+        href="https://docs.equo.dev/"
         target="_blank"
         rel="noreferrer noredirect"
       >
@@ -21,7 +21,7 @@
       <div class="useful-minicard">
         <a
           class="link"
-          href="https://docs.equoplatform.com/sdk/1.1.x/getting-started/creating.html"
+          href="https://docs.equo.dev/sdk/1.0.x/getting-started/creating.html"
           target="_blank"
           rel="noreferrer noredirect"
         >
@@ -32,7 +32,7 @@
       <div class="useful-minicard">
         <a
           class="link"
-          href="https://docs.equoplatform.com/sdk/1.1.x/developing/hot-reload.html"
+          href="https://docs.equo.dev/sdk/1.0.x/developing/hot-reload.html"
           target="_blank"
           rel="noreferrer noredirect"
         >
@@ -45,7 +45,7 @@
       <div class="useful-minicard">
         <a
           class="link"
-          href="https://docs.equoplatform.com/sdk/1.1.x/index-api-javascript.html"
+          href="https://docs.equo.dev/sdk/1.0.x/index-api-javascript.html"
           target="_blank"
           rel="noreferrer noredirect"
         >
@@ -56,7 +56,7 @@
       <div class="useful-minicard">
         <a
           class="link"
-          href="https://docs.equoplatform.com/sdk/1.1.x/index-api-java.html"
+          href="https://docs.equo.dev/sdk/1.0.x/index-api-java.html"
           target="_blank"
           rel="noreferrer noredirect"
         >
@@ -78,7 +78,7 @@
     </div>
 
     <h2>Ecosystem</h2>
-    <p>Learn Equo <a href="https://equoplatform.com" target="_blank" rel="noreferrer noredirect">here!</a></p>
+    <p>Learn Equo <a href="https://equo.dev" target="_blank" rel="noreferrer noredirect">here!</a></p>
   </div>
 </template>
 

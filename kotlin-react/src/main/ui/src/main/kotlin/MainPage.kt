@@ -12,20 +12,20 @@ import styled.styledImg
 val cards = listOf(
     MinicardData(
         "Development guides",
-        "https://docs.equoplatform.com/sdk/1.1.x/developing/getting-started/creating.html",
+        "https://docs.equo.dev/sdk/1.0.x/developing/getting-started/creating.html",
         null
     ),
     MinicardData(
         "Web UI frameworks Development",
-        "https://docs.equoplatform.com/sdk/1.1.x/developing/hot-reload.html",
+        "https://docs.equo.dev/sdk/1.0.x/developing/hot-reload.html",
         null
     ),
     MinicardData(
         "Javascript API documentation",
-        "https://docs.equoplatform.com/sdk/1.1.x/index-api-javascript.html",
+        "https://docs.equo.dev/sdk/1.0.x/index-api-javascript.html",
         null
     ),
-    MinicardData("Java API documentation", "https://docs.equoplatform.com/sdk/1.1.x/index-api-java.html", null),
+    MinicardData("Java API documentation", "https://docs.equo.dev/sdk/1.0.x/index-api-java.html", null),
     MinicardData("Click me!", "") { minicard ->
         val comm = EquoCommService.get()
         comm.on("MyKotlinEvent") { response ->
@@ -56,7 +56,7 @@ class MainPage(props: RProps) : RComponent<RProps, RState>(props) {
             p {
                 +"For a guide and recipes on how to configure / customize an Equo App, check out the "
                 a(
-                    href = "https://docs.equoplatform.com",
+                    href = "https://docs.equo.dev",
                     target = "_blank"
                 ) { +"SDK Documentation" }
             }
@@ -67,7 +67,7 @@ class MainPage(props: RProps) : RComponent<RProps, RState>(props) {
             h2 { +"Ecosystem" }
             p {
                 +"Learn Equo "
-                a(href = "https://equoplatform.com", target = "_blank") {
+                a(href = "https://equo.dev", target = "_blank") {
                     +"here!"
                 }
             }
