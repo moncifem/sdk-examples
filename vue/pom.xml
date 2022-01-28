@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>
+			src/main/ui
+		</module>
+	</modules>
 
 	<groupId>sample-name</groupId>
 	<artifactId>sample-name</artifactId>
@@ -29,9 +35,9 @@
 
 	<repositories>
 		<repository>
-            <id>equo-release</id>
-            <name>Equo Public Release Repository</name>
-            <url>https://dl.equo.dev/sdk/mvn/release</url>
-        </repository>
+			<id>equo-release</id>
+			<name>Equo Public Release Repository</name>
+			<url>https://dl.equo.dev/sdk/mvn/release</url>
+		</repository>
 	</repositories>
 </project>

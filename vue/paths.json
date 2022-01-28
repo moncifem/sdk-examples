@@ -3,5 +3,6 @@
   "src/main/java/samplename/MyEventHandler.java",
   "src/main/java/samplename",
   "src/main/ui/package.json",
+  "src/main/ui/pom.xml",
   "pom.xml"
 ]
