@@ -2,7 +2,7 @@ package samplename;
 
 //import org.junit.Assert;
 
-public class SampleNameApplication {
+public class SampleNameApplicationTest {
 
 //    public void dummy() {
 //        Assert.fail("Not implemented");
