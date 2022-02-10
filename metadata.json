@@ -2,11 +2,11 @@
   {
     "title": "Equo App",
     "slug": "equo-app",
-    "prefixFrontend": "",
     "frontends": [
       "VUE",
       "ANGULAR",
-      "REACT"
+      "REACT",
+      "VANILLA"
     ]
   },
   {
@@ -17,8 +17,9 @@
   {
     "title": "Advanced Equo App",
     "slug": "advanced-equo-app",
-    "prefixFrontend": "",
-    "frontends": []
+    "frontends": [
+      "VANILLA"
+    ]
   },
   {
     "title": "Advanced Equo WebWrapper",
@@ -28,9 +29,9 @@
   {
     "title": "Kotlin App",
     "slug": "kotlin",
-    "prefixFrontend": "kotlin",
     "frontends": [
-      "REACT"
+      "REACT",
+      "VANILLA"
     ]
   }
 ]
